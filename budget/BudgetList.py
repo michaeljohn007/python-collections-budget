@@ -22,7 +22,7 @@ class BudgetList:
 
     def __iter__(self):
         self.iter_e = iter(self.expenses)
-        self.iter_0 = iter(self.overages)
+        self.iter_o = iter(self.overages)
         return self
 
     
