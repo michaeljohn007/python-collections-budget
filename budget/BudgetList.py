@@ -54,5 +54,7 @@ def main():
 
     values = [myBudgetList.sum_expenses, myBudgetList.sum_overages, myBudgetList.budget]
 
+    ax.bar(labels, values, color=['green','red','blue'])
+
 if __name__ == "__main__":
     main()
