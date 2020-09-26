@@ -45,5 +45,5 @@ class Expenses():
         necessary_expenses = {x for x in self.list
             if (x.category == "Phone" or x.category == "Auto and Gas" 
             or x.category == "Classes" or x.category == "Utilities"
-            or x.category == "Morgage")}
+            or x.category == "Mortgage")}
 
