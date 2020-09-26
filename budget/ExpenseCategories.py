@@ -33,5 +33,7 @@ def main():
     fig,ax=plt.subplots()
     labels = ['Necessary', 'Food', 'Unnecessary']
 
+    divided_expenses_sum = []
+
 if __name__ == "__main__":
     main()  
